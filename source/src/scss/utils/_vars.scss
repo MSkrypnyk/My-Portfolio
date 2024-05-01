@@ -1,0 +1,30 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Open Sans", sans-serif;
+  --third-family: "Raleway", sans-serif;
+  --transition: 0.2s all ease-in-out;
+  --box-shadow:  2rem 2rem 100rem 0 rgba(0, 0, 0, 0.2);
+  --box-shadow-img: 0 5rem 30rem rgba(0, 0, 0, 0.8);
+
+  --bg-primary: #191919;
+  --bg-secondary: #b4b4b4;
+  --bg-header: rgba(0, 0, 0, 0.7);
+  --bg-backdrop: rgba(0, 0, 0, 0.5);
+  --bg-item: #363636;
+  --bg-btn: #010101;
+  --bg-gradient: conic-gradient(from 10deg, #010101, #fff);
+
+  --c-primary: #a7a7a7;
+  --c-secondary: #ccc;
+  --c-text-white: #fff;
+  --c-text-black: #000;
+  --c-social: #2e2d2d;
+
+  --border-radius-img:  20rem 20rem 0 0;
+}
