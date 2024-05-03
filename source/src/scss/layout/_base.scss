@@ -71,8 +71,13 @@ a {
   background-color: var(-c-text-black);
   padding: 4rem 7rem;
   border-radius: 50%;
+  transition: var(--transition);
 }
 
 .scroll-to-top:hover {
   background-color: var(--c-primary);
+}
+
+.material-icons {
+  color: var(-c-text-black);
 }
