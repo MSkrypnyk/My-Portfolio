@@ -6,6 +6,12 @@
   left: 0;
   width: 100%;
   z-index: 99;
+  
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   &__backdrop {
     background-color: var(--bg-backdrop);
@@ -33,12 +39,6 @@
   &__logo img {
     max-width: 97rem;
     height: auto;
-  }
-
-  &__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 
   &__ul {
